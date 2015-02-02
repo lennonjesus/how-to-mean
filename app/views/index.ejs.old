@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Hello!</title>
+		
+	</head>
+	
+	<body id="index" onload="">
+		Bem vindo ao <%=nome%>
+	</body>
+</html>
