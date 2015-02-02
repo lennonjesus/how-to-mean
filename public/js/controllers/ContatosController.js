@@ -1,4 +1,4 @@
-angular.module('myApp').controller('ContatosController', function ($scope) {
+angular.module('htm').controller('ContatosController', function ($scope) {
 	
 	$scope.count = 0;
 	

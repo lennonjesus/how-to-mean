@@ -3,6 +3,6 @@ var http = require('http');
 var app = require('./config/express')();
 
 http.createServer(app).listen(app.get('port'), function () {
-	console.log('OK!' + app.get('port'));
+	console.log('Server running on ' + app.get('port'));
 })
 
