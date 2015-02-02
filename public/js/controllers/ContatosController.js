@@ -1,3 +1,8 @@
 angular.module('myApp').controller('ContatosController', function ($scope) {
-	$scope.count = 10;
+	
+	$scope.count = 0;
+	
+	$scope.add = function () {
+		$scope.count++;
+	}
 })
