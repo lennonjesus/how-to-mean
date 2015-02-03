@@ -1,4 +1,4 @@
-angular.module('htm', ['ngRoute'])
+angular.module('htm', ['ngRoute', 'ngResource'])
 	.config(function ($routeProvider) {
 		$routeProvider.when('/contatos', {
 			templateUrl: 'partials/contatos.html',
