@@ -1,8 +1,9 @@
 module.exports = function (app) {
 
 	var contatos = [
-		{_id: 1, nome: 'Lennon Jesus', email: 'lennon.jesus@gmail.com'},
-		{_id: 2, nome: 'Carla Vidal', email: 'carlavoliveira@gmail.com'}
+		{id: 1, nome: 'Mamba Negra', email: 'mambanegra@gmail.com'},
+		{id: 2, nome: 'Natasha', email: 'naty@gmail.com'},
+		{id: 3, nome: 'Mercedes', email: 'mercedes@gmail.com'}
 	]
 
 	var controller = {};
