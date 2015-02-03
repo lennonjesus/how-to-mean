@@ -1,2 +1,29 @@
+<div class="jumbotron">
 
-{{count}}<button ng-click="add()">add</button>
+	<h1>
+		Lorem Ipsum
+	</h1>
+	<button class="btn btn-primary" ng-click="add()">novo</button>
+	<input type="search" placeholder="parte do nome" ng-model="filtro" />
+	<p>Contatos: {{count}}</p>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<tr>
+				<th>nome</th>
+				<th>email</th>
+				<th class="text-center">ação</th>
+			</tr>
+			<tr ng-repeat="contato in contatos | filter: filtro">
+				<td>
+					<a>{{contato.nome}}</a>
+				</td>
+				<td>{{contato.email}}}</td>
+				<td class="text-center">
+					<button class="btn btn-warning">remover</button>
+				</td>
+			</tr>
+
+		</table>
+		
+	</div>
+</div>
