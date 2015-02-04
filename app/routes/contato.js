@@ -1,6 +1,6 @@
 module.exports = function (app) {
 	var controller = app.controllers.contato;
 	
-	app.get('/contatos', controller.all);
-	app.get('/contatos/:id', controller.get);
+	app.route('/contatos').get(controller.all);
+	app.route('/contatos/:id').get(controller.get);
 }
